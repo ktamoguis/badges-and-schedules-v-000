@@ -21,4 +21,6 @@ def assign_rooms(badge)
   badges
 end
 
-def conference_badges
+def printer
+
+end
