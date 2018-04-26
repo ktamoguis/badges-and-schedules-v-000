@@ -20,3 +20,5 @@ def assign_rooms(badge)
   end
   badges
 end
+
+def conference_badges
