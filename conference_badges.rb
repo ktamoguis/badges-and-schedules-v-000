@@ -13,8 +13,10 @@ end
 
 def assign_rooms(badge)
   badges = []
+  counter = 1
   badge.each do |attendees|
-    badges <<  "Hello, #{attendees}! You'll be assigned to room 1!"
+    badges <<  "Hello, #{attendees}! You'll be assigned to room #{counter}!"
+    counter += 1
   end
   badges
 end
