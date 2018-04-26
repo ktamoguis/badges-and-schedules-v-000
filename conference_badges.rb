@@ -22,8 +22,10 @@ def assign_rooms(badge)
 end
 
 def printer(badge)
-  printer_out = []
-  printer_out << batch_badge_creator(badge)
-  printer out << assign_rooms(badge)
-  printer_out
+  batch_badge_creator(badge).each do |badges|
+    puts "#{badges}"
+  end
+  assign_rooms(badge).each do |badges|
+    puts "#{badges}"
+  end
 end
