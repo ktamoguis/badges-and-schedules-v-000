@@ -1,6 +1,5 @@
 # Write your code here.
-def badge_maker(attendees)
-  attendees.each do |names|
-    puts "Hello, my name is #{names}."
+def badge_maker(badge)
+    puts "Hello, my name is #{badge}."
   end
 end
